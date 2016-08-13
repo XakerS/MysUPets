@@ -128,7 +128,7 @@ class PetCommand extends PluginCommand {
 				}
 				else{
 					$sender->sendMessage("pls use /pet help")
-				}
+				
 						
 						case "silverfish":
 							if ($sender->hasPermission("pets.type.silverfish")){
